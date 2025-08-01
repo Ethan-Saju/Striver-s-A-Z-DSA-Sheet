@@ -4,8 +4,6 @@ class FindSqrt {
         long l = 0 ;
         long r = x;
 
-        Long max = Long.MAX_VALUE;
-
         while(l<=r){
 
             long mid = l +(r-l)/ 2;
